@@ -7,7 +7,7 @@
 body{
     font-size:20px;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fdfdfd;
+    background-color: #eee;
 }
 
 h1{
@@ -15,9 +15,18 @@ h1{
     font-weight: 300;
     font-size:4rem;
     text-align: center;
-    justify-self: center;
+
+}
+p{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 1rem;
 }
 
+#glow-intro{
+    height: 300px;
+}
 
 #glow{
     background-repeat: no-repeat;
@@ -34,7 +43,8 @@ h1{
     /*Grid positioning*/
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     justify-items: center;
-    justify-content: center;
+    align-items: center;
 }
 
