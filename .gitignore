@@ -9,7 +9,7 @@
 .idea/**/shelf
 
 # Entire idea
-./idea
+.idea
 
 # Generated files
 .idea/**/contentModel.xml
